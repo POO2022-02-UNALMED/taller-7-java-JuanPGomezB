@@ -1,12 +1,10 @@
-package taller7;
+package comunicacion;
 
 public abstract class Pictograma {
 	private String origen;
 	
 	abstract String interpretacion();
-	public String toString() {
-		return "Hola " + origen;
-	}
+	public abstract String toString();
 	
 	public String getOrigen() {
 		return origen;
@@ -17,6 +15,7 @@ public abstract class Pictograma {
 	
 	
 	public Pictograma(String origen) {
+		super();
 		this.origen = origen;
 	}
 	

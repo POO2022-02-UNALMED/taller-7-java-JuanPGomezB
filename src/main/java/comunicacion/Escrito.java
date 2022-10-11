@@ -1,12 +1,16 @@
-package taller7;
+package comunicacion;
 
 public abstract class Escrito extends Pictograma {
 	private String titulo;
 	private String autor;
 	private int paginas;
 	
-	public void resumen() {
-		
+	public String resumen() {
+		String r = this.getOrigen() + "\n";
+		r += this.titulo + "\n";
+		r += this.autor + "\n";
+		r += this.paginas;
+		return  r;
 	}
 	
 	abstract int palabrasTotales(int x);

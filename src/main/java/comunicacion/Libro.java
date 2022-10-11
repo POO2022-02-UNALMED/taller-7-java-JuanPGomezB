@@ -1,4 +1,4 @@
-package taller7;
+package comunicacion;
 
 public class Libro extends Escrito{
 	private String co_autor;

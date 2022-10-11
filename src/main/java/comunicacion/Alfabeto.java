@@ -1,4 +1,4 @@
-package taller7;
+package comunicacion;
 import java.util.*;
 
 public class Alfabeto extends Pictograma{
